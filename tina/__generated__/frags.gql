@@ -1,0 +1,185 @@
+fragment UserParts on User {
+  __typename
+  users {
+    __typename
+    username
+    name
+    email
+    password {
+      value
+      passwordChangeRequired
+    }
+  }
+}
+
+fragment AboutParts on About {
+  __typename
+  title
+  subheader
+  description
+  heroImage
+  featureImage
+}
+
+fragment SettingsParts on Settings {
+  __typename
+  content
+  i18n {
+    __typename
+    default_locale
+    locales
+  }
+  layers {
+    __typename
+    name
+    layer_type
+    url
+    overlay
+  }
+  search {
+    __typename
+    cluster_radius
+    result_card {
+      __typename
+      title
+      subtitle
+    }
+    timeline
+  }
+  typesense {
+    __typename
+    host
+    port
+    protocol
+    api_key
+    index_name
+    query_by
+  }
+  core_data {
+    __typename
+    url
+    project_ids
+  }
+}
+
+fragment PathParts on Path {
+  __typename
+  title
+  image
+  description
+  path {
+    __typename
+    place {
+      __typename
+      title
+      uuid
+      animate
+      buffer
+      layer
+    }
+    blurb
+  }
+}
+
+fragment PostParts on Post {
+  __typename
+  title
+  cardImage
+  body
+}
+
+fragment I18nParts on I18n {
+  __typename
+  t_map
+  t_home
+  t_about
+  t_paths
+  t_posts
+  t_openMainMenu
+  t_untitled
+  t_mapLayers
+  t_relatedMedia
+  t_relatedMediaEmpty
+  t_relatedOrganizations
+  t_relatedOrganizationsEmpty
+  t_relatedPeople
+  t_relatedPeopleEmpty
+  t_relatedPlaces
+  t_relatedPlacesEmpty
+  t_relatedTaxonomies
+  t_relatedTaxonomiesEmpty
+  t_loadMore
+  t_none
+  t_baseLayers
+  t_overlays
+  t_aboutProject
+  t_startTour
+  t_readMore
+  t_footerText
+  t_footerCopyright
+  t_coreDataLogin
+  t_tinaLogin
+  t_andCountMore
+  t_resultsCount
+  t_resultsCountSingular
+  t_filters
+  t_filterMapBounds
+  t_plusCount
+  t_title
+  t_root
+  t_owner_project
+  t_all_projects
+  t_owner_project_id
+  t_all_projects_id
+  t_owner_project_name
+  t_all_projects_name
+  t_event_range
+  t_5459a2c60371457eb287ca5eccfdff1d
+  t_94b06237fb7f404eb34ddf0b0f4a5493
+  t_dcf67beafe8241e8af1b7ce23f21f4b8
+  t_72931bfcf6244dff9d485a752a6e5848
+  t_9ae8e319dd8e456389b9740fd875b273
+  t_1ad957bc5bc64c68afcf2ae49e26d537
+  t_be3a41e93ae440a0a0234763a577e2e4
+  t_72797c9b5f654bd9b6753672014581e5
+  t_c54444aa31cd42239d4375bf0d77c8e3
+  t_e5f83437a1c047f59c311f7bb62b16b0
+  t_c9f2dde8a181477cb1665a3b94d1da9d
+  t_6e89decdb88447efa052a2f49ab4c33c
+  t_a6e80041165743439582e1b5fbe73d58
+  t_4020453e2a714759b133625071449e17
+  t_b2726ef3a2794b4898971a3be388bf92
+  t_76c3e7819c6441aab8fbca78190ab676
+  t_447360ec3f604397b7c19161821651eb
+  t_5e38448cbe42423e8103dd082517f0ae
+  t_7c9de1f3efc84131a5c4565a8758977d
+  t_d63bdbb50c7d4ae7b8697d7884835675
+  t_6915e33ca86441e2a1c37d54e4deb984
+  t_38fdfecb5f8f40858bfa6640c410fa36
+  t_6b38e52be3d44135be7a3c5cbd34ad89
+  t_3f742b67b84c47c2af8217a68abbe2f5
+  t_988158a441354a029dadfb37462ec33f
+  t_77f68d53bb394b2e9d17a756be13e7d0
+  t_010f31acdd224628b37ef63753da85ce
+  t_90e5136454054edcb9bca911d89c11b6
+  t_d0e9b29b5845428f8643355fa40ce9b0
+  t_8f0fef178f304eeeb29fa6bcddb73583
+  t_c1567482ef224c79b0e0fd1a351c62d2
+  t_1c4e9957c627435da91cbaee051b7436
+  t_8677bf89b2c24ced816bbe388460c043
+  t_0eb50f0c80154d0e8cf6f36c291c889a
+  t_307e3603d8bf42ca8565e590b187da80
+  t_700dd643b4a24f3c83369e15a423dee8
+  t_7e81da4a67724d9c952e99921ef1d2f0
+  t_f49250eccbf240eca4f262bcf667e576
+  t_37c68d4f638e4bff86f806afb4acea42
+  t_be0bb9e247f74d20a9cf0e06f6e6f63c
+  t_9a5a15b3f1a7482087f0e44dc211d0dd
+  t_be56b77c301043989df262d09de606fc
+  t_25aec5fbadd0468f83dc5555ac8f8e9c
+  t_c71827bc4545463a8b4a7800aa2e7638
+  t_60fbb4063a7c4459a1df699c23f23c82
+  t_1dc3722defbc46c6a8571ca8c7a76809
+  t_1910ce4f41c948e9a49679a613b8f355
+  t_29ade009d9ee48278b8996c1b2c8f0dd
+}
