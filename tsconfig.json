@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "paths": {
+      "@apps/*": ["src/apps/*"],
+      "@backend/*": ["src/backend/*"],
+      "@components/*": ["src/components/*"],
+      "@config": ["config.json"],
+      "@i18n/*": ["src/i18n/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@root/*": ["*"],
+      "@styles/*": ["src/styles/*"],
+      "@tina/*": ["tina/__generated__/*"]
+    },
+    "plugins": [{
+      "name": "@astrojs/ts-plugin"
+    }],
+    "resolveJsonModule": true,
+    "target": "ESNext",
+    "ts-node": {
+      // these options are overrides used only by ts-node
+      // same as the --compilerOptions flag and the TS_NODE_COMPILER_OPTIONS environment variable
+      "compilerOptions": {
+        "module": ""
+      }
+    },
+    "types": [
+      "vite/client"
+    ]
+  }
+}
