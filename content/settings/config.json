@@ -20,7 +20,8 @@
     "cluster_radius": 6,
     "result_card": {
       "title": "name"
-    }
+    },
+    "timeline": true
   },
   "typesense": {
     "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
