@@ -39,5 +39,10 @@
       "44",
       "45"
     ]
-  }
+  },
+  "detail_pages": [
+    "places",
+    "events"
+  ],
+  "static_build": true
 }
