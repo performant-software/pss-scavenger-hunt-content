@@ -44,5 +44,5 @@
     "places",
     "events"
   ],
-  "static_build": true
+  "static_build": false
 }
