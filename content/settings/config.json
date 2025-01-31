@@ -16,13 +16,19 @@
       "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
     }
   ],
-  "search": {
+  "map": {
     "cluster_radius": 6,
+    "geometry": "geometry",
+    "max_zoom": 14,
+    "zoom_to_place": true
+  },
+  "search": {
+    "geosearch": true,
     "result_card": {
       "title": "6e89decd-b884-47ef-a052-a2f49ab4c33c.0.name",
       "subtitle": "name"
     },
-    "timeline": true
+    "route": "/places"
   },
   "typesense": {
     "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
@@ -39,10 +45,5 @@
       "44",
       "45"
     ]
-  },
-  "detail_pages": [
-    "places",
-    "events"
-  ],
-  "static_build": false
+  }
 }
