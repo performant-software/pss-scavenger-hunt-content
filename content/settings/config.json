@@ -16,12 +16,6 @@
   },
   "layers": [
     {
-      "name": "Test Layer",
-      "layer_type": "georeference",
-      "url": "https://core-data-map-library.s3.us-east-1.amazonaws.com/01.json",
-      "overlay": true
-    },
-    {
       "name": "Maptiler DataViz Style",
       "layer_type": "vector",
       "url": "https://api.maptiler.com/maps/dataviz/style.json?key=DICl11L0kocVzMWdoynh"
@@ -34,7 +28,6 @@
     {
       "name": "USGS Topo (MapServer)",
       "layer_type": "raster",
-      "foo": "https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer?bbox=%7Bbbox-epsg-3857%7D&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=0&styles=default",
       "url": "https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=0&styles=default"
     },
     {
@@ -47,7 +40,6 @@
       "name": "US States",
       "layer_type": "geojson",
       "url": "gz_2010_us_040_00_20m.json",
-      "description": "Data from the United States Census Bureau. https://eric.clst.org/tech/usgeojson/",
       "overlay": true
     }
   ],
