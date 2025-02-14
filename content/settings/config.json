@@ -8,6 +8,9 @@
     "paths",
     "posts"
   ],
+  "detail_pages": [
+    "works"
+  ],
   "i18n": {
     "default_locale": "en",
     "locales": [
