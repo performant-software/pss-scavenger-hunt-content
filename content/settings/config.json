@@ -1,4 +1,12 @@
 {
+  "map": {
+    "geometry": "geometry",
+    "max_zoom": 14,
+    "zoom_to_place": true
+  },
+  "detail_pages": [
+    "works"
+  ],
   "content": [
     "paths",
     "posts"
@@ -13,21 +21,15 @@
     {
       "name": "Maptiler DataViz Style",
       "layer_type": "vector",
-      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB",
+      "overlay": false
     }
   ],
-  "map": {
-    "geometry": "geometry",
-    "max_zoom": 14,
-    "zoom_to_place": true
-  },
   "search": {
-    "geosearch": true,
     "result_card": {
       "title": "6e89decd-b884-47ef-a052-a2f49ab4c33c.0.name",
       "subtitle": "name"
-    },
-    "route": "/places"
+    }
   },
   "typesense": {
     "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
@@ -44,8 +46,5 @@
       "44",
       "45"
     ]
-  },
-  "detail_pages": [
-    "works"
-  ]
+  }
 }
