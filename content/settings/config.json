@@ -1,9 +1,4 @@
 {
-  "map": {
-    "geometry": "geometry",
-    "max_zoom": 14,
-    "zoom_to_place": true
-  },
   "content": [
     "paths",
     "posts"
@@ -46,11 +41,17 @@
       "overlay": true
     }
   ],
+  "map": {
+    "geometry": "geometry",
+    "max_zoom": 14,
+    "zoom_to_place": true
+  },
   "search": {
+    "geosearch": true,
     "result_card": {
-      "title": "6e89decd-b884-47ef-a052-a2f49ab4c33c.0.name",
-      "subtitle": "name"
-    }
+      "title": "name"
+    },
+    "route": "/places"
   },
   "typesense": {
     "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
