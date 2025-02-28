@@ -54,7 +54,7 @@
     "result_filtering": {
       "places": {
         "exclude": [
-          "place_layers"
+          "relatedOrganizations"
         ]
       }
     },
