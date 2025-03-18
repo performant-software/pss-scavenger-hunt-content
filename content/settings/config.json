@@ -1,10 +1,10 @@
 {
+  "detail_pages": [
+    "works"
+  ],
   "content": [
     "paths",
     "posts"
-  ],
-  "detail_pages": [
-    "works"
   ],
   "i18n": {
     "default_locale": "en",
@@ -47,11 +47,15 @@
     "zoom_to_place": true
   },
   "search": {
-    "facets": [{
-      "name": "8677bf89-b2c2-4ced-816b-be388460c043.name_facet",
-      "icon": "info",
-      "type": "select"
-    }],
+    "facets": [
+      {
+        "name": "8677bf89-b2c2-4ced-816b-be388460c043.name_facet",
+        "icon": "info",
+        "type": [
+          "select"
+        ]
+      }
+    ],
     "geosearch": true,
     "result_card": {
       "title": "name"
@@ -73,5 +77,8 @@
       "44",
       "45"
     ]
+  },
+  "branding": {
+    "footer_login": true
   }
 }
