@@ -81,5 +81,25 @@
       "index_name": "scavenger_hunt",
       "query_by": "name"
     }
+  }, {
+    "name": "events",
+    "geosearch": true,
+    "route": "/events",
+    "map": {
+      "geometry": "4020453e-2a71-4759-b133-625071449e17.geometry",
+      "max_zoom": 14,
+      "zoom_to_place": true
+    },
+    "result_card": {
+      "title": "name"
+    },
+    "typesense": {
+      "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+      "port": 443,
+      "protocol": "https",
+      "api_key": "59CsiCMRHLQRnqLLSEBnf6pCllF5F2ee",
+      "index_name": "scavenger_hunt_events",
+      "query_by": "name"
+    }
   }]
 }
