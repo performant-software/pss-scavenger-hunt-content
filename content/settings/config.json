@@ -1,10 +1,21 @@
 {
-  "detail_pages": [
-    "works"
-  ],
+  "branding": {
+    "footer_login": true
+  },
   "content": [
     "paths",
     "posts"
+  ],
+  "core_data": {
+    "url": "https://staging.coredata.cloud",
+    "project_ids": [
+      "43",
+      "44",
+      "45"
+    ]
+  },
+  "detail_pages": [
+    "works"
   ],
   "i18n": {
     "default_locale": "en",
@@ -41,12 +52,10 @@
       "overlay": true
     }
   ],
-  "map": {
-    "geometry": "geometry",
-    "max_zoom": 14,
-    "zoom_to_place": true
-  },
-  "search": {
+  "search": [{
+    "name": "places",
+    "geosearch": true,
+    "route": "/places",
     "facets": [
       {
         "name": "8677bf89-b2c2-4ced-816b-be388460c043.name_facet",
@@ -56,29 +65,21 @@
         ]
       }
     ],
-    "geosearch": true,
+    "map": {
+      "geometry": "geometry",
+      "max_zoom": 14,
+      "zoom_to_place": true
+    },
     "result_card": {
       "title": "name"
     },
-    "route": "/places"
-  },
-  "typesense": {
-    "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
-    "port": 443,
-    "protocol": "https",
-    "api_key": "PSNp8MUfQBInjahcHQ3l76jChrHZHqmj",
-    "index_name": "scavenger_hunt",
-    "query_by": "name"
-  },
-  "core_data": {
-    "url": "https://staging.coredata.cloud",
-    "project_ids": [
-      "43",
-      "44",
-      "45"
-    ]
-  },
-  "branding": {
-    "footer_login": true
-  }
+    "typesense": {
+      "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+      "port": 443,
+      "protocol": "https",
+      "api_key": "PSNp8MUfQBInjahcHQ3l76jChrHZHqmj",
+      "index_name": "scavenger_hunt",
+      "query_by": "name"
+    }
+  }]
 }
