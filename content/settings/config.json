@@ -91,6 +91,9 @@
       "result_card": {
         "title": "name"
       },
+      "timeline": {
+        "date_range_facet": "start_year_facet"
+      },
       "typesense": {
         "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
         "port": 443,
