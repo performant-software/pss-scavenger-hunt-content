@@ -93,6 +93,11 @@
       "name": "events",
       "route": "/events",
       "geosearch": true,
+      "map": {
+        "geometry": "4020453e-2a71-4759-b133-625071449e17.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
       "result_card": {
         "title": "name"
       },
