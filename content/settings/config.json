@@ -111,6 +111,11 @@
         "api_key": "59CsiCMRHLQRnqLLSEBnf6pCllF5F2ee",
         "index_name": "scavenger_hunt_events",
         "query_by": "name"
+      },
+      "visualizations": {
+        "events_by_year": {
+          "path": ""
+        }
       }
     }
   ]
