@@ -112,11 +112,9 @@
         "index_name": "scavenger_hunt_events",
         "query_by": "name"
       },
-      "visualizations": {
-        "events_by_year": {
-          "path": ""
-        }
-      }
+      "visualizations": [{
+        "name": "events_by_year"
+      }]
     }
   ]
 }
