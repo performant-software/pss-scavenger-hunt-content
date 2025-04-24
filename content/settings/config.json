@@ -7,7 +7,7 @@
   "branding": {
     "footer_login": true
   },
-  "content": { 
+  "content": {
     "collections": [
       "paths",
       "posts"
