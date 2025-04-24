@@ -7,10 +7,12 @@
   "branding": {
     "footer_login": true
   },
-  "content": [
-    "paths",
-    "posts"
-  ],
+  "content": { 
+    "collections": [
+      "paths",
+      "posts"
+    ]
+  },
   "core_data": {
     "url": "https://staging.coredata.cloud",
     "project_ids": [
