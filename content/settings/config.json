@@ -1,9 +1,11 @@
 {
-  "detail_pages": [
-    "people",
-    "places",
-    "works"
-  ],
+  "detail_pages": {
+    "models": [
+      "people",
+      "places",
+      "works"
+    ]
+  },
   "branding": {
     "footer_login": true
   },
