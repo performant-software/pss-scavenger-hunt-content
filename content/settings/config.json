@@ -1,10 +1,10 @@
 {
   "detail_pages": {
-    "models": [
-      "people",
-      "places",
-      "works"
-    ]
+    "models": {
+      "people": {},
+      "places": {},
+      "works": {}
+    }
   },
   "branding": {
     "footer_login": true
