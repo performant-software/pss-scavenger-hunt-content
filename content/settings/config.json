@@ -63,6 +63,13 @@
       "layer_type": "geojson",
       "url": "gz_2010_us_040_00_20m.json",
       "overlay": true
+    },
+    {
+      "name": "Old Boston Map",
+      "layer_type": "georeference",
+      "url": "https://annotations.allmaps.org/manifests/cfb327e4b43395e3",
+      "overlay": true,
+      "default": false
     }
   ],
   "search": [
