@@ -1,0 +1,10 @@
+{
+  "docId": "content/post/ES-test-post.mdx",
+  "collection": "post",
+  "crudType": "rename",
+  "timestamp": "2026-07-30T17:05:20.542Z",
+  "userEmail": "mk@example.com",
+  "userName": "Kazuya Miyuki",
+  "userID": "user_3Au2HU4xo4Vt6Pk3uf5gIT73qnt",
+  "note": "Renamed to SE-test-post.mdx"
+}
