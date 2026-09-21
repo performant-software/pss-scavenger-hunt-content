@@ -1,0 +1,76 @@
+{
+  "sourceCollection": "scavenger_hunt",
+  "generatedAt": "2026-09-21T21:22:04.357Z",
+  "searchableFields": [
+    "6915e33c-a864-41e2-a1c3-7d54e4deb984",
+    "6b38e52b-e3d4-4135-be7a-3c5cbd34ad89",
+    "6b38e52b-e3d4-4135-be7a-3c5cbd34ad89_facet",
+    "name",
+    "names",
+    "names_facet",
+    "record_id",
+    "uuid",
+    "1ad957bc-5bc6-4c68-afcf-2ae49e26d537"
+  ],
+  "aggregations": {
+    "6b38e52b-e3d4-4135-be7a-3c5cbd34ad89_facet": {
+      "title": "6b38e52b E3d4 4135 Be7a 3c5cbd34ad89 Facet",
+      "size": 20,
+      "conjunction": false
+    },
+    "all_projects_facet": {
+      "title": "All Projects Facet",
+      "size": 20,
+      "conjunction": false
+    },
+    "event_range_facet": {
+      "title": "Event Range Facet",
+      "size": 20,
+      "conjunction": false
+    },
+    "names_facet": {
+      "title": "Names Facet",
+      "size": 20,
+      "conjunction": false
+    },
+    "owner_project_facet": {
+      "title": "Owner Project Facet",
+      "size": 20,
+      "conjunction": false
+    }
+  },
+  "sortings": {
+    "coordinates_asc": {
+      "field": "coordinates",
+      "order": "asc"
+    },
+    "coordinates_desc": {
+      "field": "coordinates",
+      "order": "desc"
+    },
+    "import_id_asc": {
+      "field": "import_id",
+      "order": "asc"
+    },
+    "import_id_desc": {
+      "field": "import_id",
+      "order": "desc"
+    },
+    "owner_project_facet.id_asc": {
+      "field": "owner_project_facet.id",
+      "order": "asc"
+    },
+    "owner_project_facet.id_desc": {
+      "field": "owner_project_facet.id",
+      "order": "desc"
+    },
+    "owner_project.id_asc": {
+      "field": "owner_project.id",
+      "order": "asc"
+    },
+    "owner_project.id_desc": {
+      "field": "owner_project.id",
+      "order": "desc"
+    }
+  }
+}
