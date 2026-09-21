@@ -74,40 +74,8 @@
   ],
   "search": [
     {
-      "name": "typesense_places",
-      "route": "/typesense_places",
-      "geosearch": true,
-      "facets": [
-        {
-          "name": "8677bf89-b2c2-4ced-816b-be388460c043.name_facet",
-          "icon": "info",
-          "type": "select"
-        }
-      ],
-      "map": {
-        "geometry": "geometry",
-        "max_zoom": 14,
-        "zoom_to_place": true
-      },
-      "result_card": {
-        "title": "name"
-      },
-      "timeline": {
-        "date_range_facet": "event_range_facet",
-        "event_path": "4020453e-2a71-4759-b133-625071449e17"
-      },
-      "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
-        "port": 443,
-        "protocol": "https",
-        "api_key": "PSNp8MUfQBInjahcHQ3l76jChrHZHqmj",
-        "index_name": "scavenger_hunt",
-        "query_by": "name"
-      }
-    },
-    {
       "name": "static_places",
-      "route": "/static_places",
+      "route": "/places",
       "geosearch": true,
       "facets": [
         {
