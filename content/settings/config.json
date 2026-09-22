@@ -74,14 +74,89 @@
   ],
   "search": [
     {
-      "name": "static_places",
-      "route": "/places",
-      "geosearch": true,
+      "name": "pratchett",
+      "route": "/items",
+      "type": "list",
       "facets": [
         {
-          "name": "8677bf89-b2c2-4ced-816b-be388460c043.name_facet",
-          "icon": "info",
+          "name": "author",
           "type": "select"
+        },
+        {
+          "name": "contributors",
+          "type": "select"
+        },
+        {
+          "name": "subject",
+          "type": "select"
+        },
+        {
+          "name": "theme",
+          "type": "list"
+        },
+        {
+          "name": "place",
+          "type": "select"
+        },
+        {
+          "name": "publisher",
+          "type": "select"
+        },
+        {
+          "name": "date_normalised",
+          "type": "list"
+        },
+        {
+          "name": "type",
+          "type": "list"
+        },
+        {
+          "name": "series",
+          "type": "select"
+        },
+        {
+          "name": "language",
+          "type": "list"
+        },
+        {
+          "name": "instutution",
+          "type": "list"
+        },
+        {
+          "name": "uniform_title",
+          "type": "select"
+        }
+      ],
+      "result_card": {
+        "title": "title",
+        "attributes": [
+          {
+            "name": "author"
+          },
+          {
+            "name": "date"
+          },
+          {
+            "name": "type"
+          }
+        ]
+      },
+      "static": {
+        "index_name": "pratchett"
+      }
+    },
+    {
+      "name": "static_places",
+      "route": "/places",
+      "type": "map",
+      "facets": [
+        {
+          "name": "names_facet",
+          "type": "select"
+        },
+        {
+          "name": "6b38e52b-e3d4-4135-be7a-3c5cbd34ad89_facet",
+          "type": "list"
         }
       ],
       "map": {
@@ -96,8 +171,14 @@
         "date_range_facet": "event_range_facet",
         "event_path": "4020453e-2a71-4759-b133-625071449e17"
       },
-      "static_search": {
-        "index_name": "scavenger_hunt"
+      "static": {
+        "index_name": "scavenger_hunt",
+        "facets": {
+          "include": [
+            "names_facet",
+            "6b38e52b-e3d4-4135-be7a-3c5cbd34ad89_facet"
+          ]
+        }
       }
     },
     {
