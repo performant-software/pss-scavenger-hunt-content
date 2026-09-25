@@ -74,14 +74,17 @@
   ],
   "search": [
     {
-      "name": "places",
+      "name": "static_places",
       "route": "/places",
-      "geosearch": true,
+      "type": "map",
       "facets": [
         {
-          "name": "8677bf89-b2c2-4ced-816b-be388460c043.name_facet",
-          "icon": "info",
+          "name": "names_facet",
           "type": "select"
+        },
+        {
+          "name": "6b38e52b-e3d4-4135-be7a-3c5cbd34ad89_facet",
+          "type": "list"
         }
       ],
       "map": {
@@ -96,19 +99,23 @@
         "date_range_facet": "event_range_facet",
         "event_path": "4020453e-2a71-4759-b133-625071449e17"
       },
-      "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
-        "port": 443,
-        "protocol": "https",
-        "api_key": "PSNp8MUfQBInjahcHQ3l76jChrHZHqmj",
-        "index_name": "scavenger_hunt",
-        "query_by": "name"
+      "static": {
+        "model_ids": [
+          "9ae8e319-dd8e-4563-89b9-740fd875b273",
+          "d63bdbb5-0c7d-4ae7-b869-7d7884835675",
+          "be0bb9e2-47f7-4d20-a9cf-0e06f6e6f63c"
+        ],
+        "facets": {
+          "include": [
+            "names_facet",
+            "6b38e52b-e3d4-4135-be7a-3c5cbd34ad89_facet"
+          ]
+        }
       }
     },
     {
       "name": "events",
       "route": "/events",
-      "geosearch": true,
       "map": {
         "geometry": "4020453e-2a71-4759-b133-625071449e17.geometry",
         "max_zoom": 14,
@@ -120,13 +127,12 @@
       "timeline": {
         "date_range_facet": "start_year_facet"
       },
-      "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
-        "port": 443,
-        "protocol": "https",
-        "api_key": "59CsiCMRHLQRnqLLSEBnf6pCllF5F2ee",
-        "index_name": "scavenger_hunt_events",
-        "query_by": "name"
+      "static": {
+        "model_ids": [
+          "be3a41e9-3ae4-40a0-a023-4763a577e2e4",
+          "988158a4-4135-4a02-9dad-fb37462ec33f",
+          "c71827bc-4545-463a-8b4a-7800aa2e7638"
+        ]
       },
       "visualizations": [{
         "name": "events_by_year"

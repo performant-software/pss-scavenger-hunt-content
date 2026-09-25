@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f5ad976-7da5-41b2-b001-2f6f88036f08" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;camdendotlol&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/performant-software/pss-scavenger-hunt-content.git&quot;,
+    &quot;accountId&quot;: &quot;5e48d166-b92f-4132-9cae-b8a81ca6c947&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.9163304993990655" />
+      <entry key="MS500" value="6.869026030659838" />
+      <entry key="S2" value="17.297209217917914" />
+      <entry key="S5" value="29.924371674653347" />
+      <entry key="S10" value="42.622980923753076" />
+      <entry key="S30" value="59.5574107108797" />
+      <entry key="S60" value="65.72893433832225" />
+      <entry key="M2" value="69.21403405763535" />
+      <entry key="M5" value="71.44781122121765" />
+      <entry key="M10" value="72.3603707062205" />
+      <entry key="M15" value="74.10248072435624" />
+      <entry key="M30" value="91.63353690322916" />
+      <entry key="H1" value="137.7787345145622" />
+      <entry key="H2" value="193.4491820438648" />
+      <entry key="H4" value="237.2475249993126" />
+      <entry key="D1" value="285.7086117404926" />
+      <entry key="W1" value="295.350904125187" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.811381459805615" />
+      <entry key="MS500" value="6.818158448146395" />
+      <entry key="S2" value="17.263876626483007" />
+      <entry key="S5" value="29.9001441770269" />
+      <entry key="S10" value="42.6055834944726" />
+      <entry key="S30" value="59.54930121777139" />
+      <entry key="S60" value="65.72446035475994" />
+      <entry key="M2" value="69.2116787650737" />
+      <entry key="M5" value="71.44683877938965" />
+      <entry key="M10" value="72.35987778925178" />
+      <entry key="M15" value="74.10214057871114" />
+      <entry key="M30" value="91.63330504708145" />
+      <entry key="H1" value="137.77853628488648" />
+      <entry key="H2" value="193.44903305807128" />
+      <entry key="H4" value="237.24743084665906" />
+      <entry key="D1" value="285.7085924182267" />
+      <entry key="W1" value="295.350901261611" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3Jeh5KAKIkc6EeQhC1GrtFJ7iPh" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cm/static-search&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/camdenmecklem/Documents/work/pss-scavenger-hunt-content/content/search&quot;,
+    &quot;node.js.detected.package.@glint/core&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.@glint/core&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/search" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10968.77" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f5ad976-7da5-41b2-b001-2f6f88036f08" name="Changes" comment="" />
+      <created>1790027257075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790027257075</updated>
+      <workItem from="1790027258077" duration="2052000" />
+      <workItem from="1790103751994" duration="3747000" />
+      <workItem from="1790167810340" duration="3942000" />
+      <workItem from="1790205651055" duration="14000" />
+      <workItem from="1790278523337" duration="1391000" />
+      <workItem from="1790344474767" duration="1117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
